@@ -1,6 +1,7 @@
 <!-- YAGO -->
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,9 +16,9 @@
       theme: {
         extend: {
           colors: {
-            primary: '#1a237e',
-            secondary: '#303f9f',
-            accent: '#3949ab'
+            primary: '#512f75',
+            secondary: '#673a8e',
+            accent: '#7e46a8'
           }
         }
       }
@@ -31,28 +32,35 @@
       <div class="container mx-auto px-4">
         <div class="flex justify-between items-center py-4">
           <div class="flex items-center space-x-4">
-            <img src="img/goat_logo_-_beyaz2.png" alt="GOAT Logo" class="h-16 w-16 cursor-pointer" onclick="scrollWindowTo('anasayfa')">
+            <img src="img/goat_logo_-_beyaz2.png" alt="GOAT Logo" class="h-16 w-16 cursor-pointer"
+              onclick="scrollWindowTo('anasayfa')">
             <div class="text-lg font-bold text-gray-800" id="logo-text">
               Greatest Of All Times<br>8092
             </div>
           </div>
-          
+
           <button class="lg:hidden" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
             <i class="fas fa-bars text-gray-600"></i>
           </button>
-          
+
           <div class="hidden lg:flex items-center space-x-8" id="navbarSupportedContent">
-            <a class="text-gray-700 hover:text-primary transition-colors cursor-pointer" onclick="scrollWindowTo('anasayfa')">Anasayfa</a>
-            <a class="text-gray-700 hover:text-primary transition-colors cursor-pointer" onclick="scrollWindowTo('hakkimizda')">Hakkımızda</a>
-            <a class="text-gray-700 hover:text-primary transition-colors cursor-pointer" onclick="scrollWindowTo('takim')">Takım</a>
-            <a class="text-gray-700 hover:text-primary transition-colors cursor-pointer" onclick="scrollWindowTo('projelerimiz')">Projelerimiz</a>
-            <a class="text-gray-700 hover:text-primary transition-colors cursor-pointer" onclick="scrollWindowTo('galeri')">Galeri</a>
-            <a class="text-gray-700 hover:text-primary transition-colors cursor-pointer" onclick="scrollWindowTo('iletisim')">İletişim</a>
+            <a class="text-gray-700 hover:text-primary transition-colors cursor-pointer"
+              onclick="scrollWindowTo('anasayfa')">Anasayfa</a>
+            <a class="text-gray-700 hover:text-primary transition-colors cursor-pointer"
+              onclick="scrollWindowTo('hakkimizda')">Hakkımızda</a>
+            <a class="text-gray-700 hover:text-primary transition-colors cursor-pointer"
+              onclick="scrollWindowTo('takim')">Takım</a>
+            <a class="text-gray-700 hover:text-primary transition-colors cursor-pointer"
+              onclick="scrollWindowTo('projelerimiz')">Projelerimiz</a>
+            <a class="text-gray-700 hover:text-primary transition-colors cursor-pointer"
+              onclick="scrollWindowTo('galeri')">Galeri</a>
+            <a class="text-gray-700 hover:text-primary transition-colors cursor-pointer"
+              onclick="scrollWindowTo('iletisim')">İletişim</a>
           </div>
         </div>
       </div>
     </nav>
-    
+
     <div class="relative h-screen">
       <div class="absolute inset-0 bg-gradient-to-r from-primary/90 to-secondary/90"></div>
       <div class="relative h-full flex flex-col items-center justify-center text-white space-y-4">
@@ -71,7 +79,9 @@
       <h2 class="text-4xl font-bold text-center text-gray-800 mb-16">Hakkımızda</h2>
       <div class="max-w-4xl mx-auto">
         <p class="text-lg text-gray-700 mb-12 leading-relaxed">
-          <strong>Takımımız Tekirdağ'da kurulan ilk ve tek FRC takımıdır. 2019 yılında BSH Türkiye ve Kodluyoruz Derneği'nin destekleriyle Tekirdağ/Çerkezköy Halit Narin Mesleki ve Teknik Anadolu Lisesi bünyesinde bilişim, makine ve elektrik elektronik öğrencileri tarafından kurulmuştur.</strong>
+          <strong>Takımımız Tekirdağ'da kurulan ilk ve tek FRC takımıdır. 2019 yılında BSH Türkiye ve Kodluyoruz
+            Derneği'nin destekleriyle Tekirdağ/Çerkezköy Halit Narin Mesleki ve Teknik Anadolu Lisesi bünyesinde
+            bilişim, makine ve elektrik elektronik öğrencileri tarafından kurulmuştur.</strong>
         </p>
 
         <div class="space-y-8">
@@ -96,63 +106,63 @@
   <section id="takim" class="py-20 bg-gray-100">
     <div class="container mx-auto px-4">
       <h2 class="text-4xl font-bold text-center text-gray-800 mb-16">Takım Üyelerimiz</h2>
-      
+
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
-          <img src="" alt="Toprak Talha Soylu" class="w-full h-64 object-cover">
+        <!-- 2024 Members -->
+        <div
+          class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 relative">
+          <div class="absolute top-2 right-2 z-10">
+            <span class="bg-primary text-white text-xs font-bold px-2 py-1 rounded-full">Kaptan</span>
+          </div>
+          <img src="img/toprak.jpg" alt="Toprak Talha Soylu" class="w-full h-64 object-cover">
           <div class="p-6">
             <h3 class="text-xl font-semibold text-gray-800">Toprak Talha Soylu</h3>
-            <p class="text-gray-600">Yazılım Kaptanı</p>
+            <p class="text-gray-600">Yazılım Kaptanı Ve Elektrik</p>
             <p class="text-gray-500 text-sm">2024-</p>
           </div>
         </div>
 
-        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+        <div
+          class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 relative">
+          <div class="absolute top-2 right-2 z-10">
+            <span class="bg-primary text-white text-xs font-bold px-2 py-1 rounded-full">Kaptan</span>
+          </div>
           <img src="img/emirhan.jpeg" alt="Emirhan Akın" class="w-full h-64 object-cover">
           <div class="p-6">
             <h3 class="text-xl font-semibold text-gray-800">Emirhan Akın</h3>
-            <p class="text-gray-600">Mekanik Kaptanı</p>
+            <p class="text-gray-600">Mekanik ve Safety Kaptanı</p>
             <p class="text-gray-500 text-sm">2024-</p>
           </div>
         </div>
 
-        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
-          <img src="img/AHMET.jpg" alt="Ahmet Can Arslan" class="w-full h-64 object-cover">
+        <div
+          class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 relative">
+          <div class="absolute top-2 right-2 z-10">
+            <span class="bg-primary text-white text-xs font-bold px-2 py-1 rounded-full">Kaptan</span>
+          </div>
+          <img src="img/nurettin.jpg" alt="Nurettin Nural" class="w-full h-64 object-cover">
           <div class="p-6">
-            <h3 class="text-xl font-semibold text-gray-800">Ahmet Can Arslan</h3>
-            <p class="text-gray-600">Mekanik Kaptanı</p>
+            <h3 class="text-xl font-semibold text-gray-800">Nurettin Nural</h3>
+            <p class="text-gray-600">Elektrik Kaptanı ve Yazılım</p>
             <p class="text-gray-500 text-sm">2024-</p>
           </div>
         </div>
 
-        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
-          <img src="img/Alperen.jpg" alt="Alperen Dağ" class="w-full h-64 object-cover">
-          <div class="p-6">
-            <h3 class="text-xl font-semibold text-gray-800">Alperen Dağ</h3>
-            <p class="text-gray-600">Yazılım ve Elektronik</p>
-            <p class="text-gray-500 text-sm">2024-</p>
+        <div
+          class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 relative">
+          <div class="absolute top-2 right-2 z-10">
+            <span class="bg-primary text-white text-xs font-bold px-2 py-1 rounded-full">Kaptan</span>
           </div>
-        </div>
-
-        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
-          <img src="" alt="Akın Yıldırım" class="w-full h-64 object-cover">
-          <div class="p-6">
-            <h3 class="text-xl font-semibold text-gray-800">Akın Yıldırım</h3>
-            <p class="text-gray-600">Mekanik</p>
-            <p class="text-gray-500 text-sm">2024-</p>
-          </div>
-        </div>
-
-        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
           <img src="img/Halil.jpg" alt="Halil İbrahim öz" class="w-full h-64 object-cover">
           <div class="p-6">
-            <h3 class="text-xl font-semibold text-gray-800">Halil İbrahim öz</h3>
+            <h3 class="text-xl font-semibold text-gray-800">Halil İbrahim Öz</h3>
             <p class="text-gray-600">Takım Kaptanı</p>
             <p class="text-gray-500 text-sm">2024-</p>
           </div>
         </div>
 
-        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+        <div
+          class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
           <img src="img/gülsena.jpg" alt="Gülsena Günay" class="w-full h-64 object-cover">
           <div class="p-6">
             <h3 class="text-xl font-semibold text-gray-800">Gülsena Günay</h3>
@@ -161,7 +171,8 @@
           </div>
         </div>
 
-        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+        <div
+          class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
           <img src="img/irem.jpg" alt="İrem Karakuş" class="w-full h-64 object-cover">
           <div class="p-6">
             <h3 class="text-xl font-semibold text-gray-800">İrem Karakuş</h3>
@@ -170,25 +181,24 @@
           </div>
         </div>
 
-        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
-          <img src="img/Nazlı.jpg" alt="Nazlı Gürel" class="w-full h-64 object-cover">
-          <div class="p-6">
-            <h3 class="text-xl font-semibold text-gray-800">Nazlı Gürel</h3>
-            <p class="text-gray-600">Nazlı Güler</p>
-            <p class="text-gray-500 text-sm">2024-</p>
+        <div
+          class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 relative">
+          <div class="absolute top-2 right-2 z-10">
+            <span class="bg-primary text-white text-xs font-bold px-2 py-1 rounded-full">Kaptan</span>
           </div>
-        </div>
-        
-        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
           <img src="img/Elif.jpg" alt="Elif Gülsüm Şenol" class="w-full h-64 object-cover">
           <div class="p-6">
             <h3 class="text-xl font-semibold text-gray-800">Elif Gülsüm Şenol</h3>
-            <p class="text-gray-600">Mekanik ve Safety eş Kaptani</p>
+            <p class="text-gray-600">Safety Kaptanı ve Mekanik</p>
             <p class="text-gray-500 text-sm">2024-</p>
           </div>
         </div>
 
-        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+        <div
+          class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 relative">
+          <div class="absolute top-2 right-2 z-10">
+            <span class="bg-primary text-white text-xs font-bold px-2 py-1 rounded-full">Kaptan</span>
+          </div>
           <img src="img/Miraç.jpg" alt="Miraç Miraç Aktemur" class="w-full h-64 object-cover">
           <div class="p-6">
             <h3 class="text-xl font-semibold text-gray-800">Muhammet Miraç Aktemur</h3>
@@ -197,23 +207,77 @@
           </div>
         </div>
 
-        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+        <div
+          class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 relative">
+          <div class="absolute top-2 right-2 z-10">
+            <span class="bg-primary text-white text-xs font-bold px-2 py-1 rounded-full">Kaptan</span>
+          </div>
           <img src="img/Mustafa.jpg" alt="Mustafa Yazı" class="w-full h-64 object-cover">
           <div class="p-6">
             <h3 class="text-xl font-semibold text-gray-800">Mustafa Yazı</h3>
-            <p class="text-gray-600">Eş Pr Kaptanı</p>
+            <p class="text-gray-600">Eş PR Kaptanı</p>
             <p class="text-gray-500 text-sm">2024-</p>
           </div>
         </div>
-      </div>   
-      
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+
+        <div
+          class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
           <img src="img/Tuana.jpg" alt="Tuana Akdemir" class="w-full h-64 object-cover">
           <div class="p-6">
             <h3 class="text-xl font-semibold text-gray-800">Tuana Akdemir</h3>
             <p class="text-gray-600">Mekanik ve Elektrik</p>
             <p class="text-gray-500 text-sm">2024-</p>
+          </div>
+        </div>
+
+        <div
+          class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+          <img src="img/Hüseyin Kalaycı.jpg" alt="Hüseyin Kalaycı" class="w-full h-64 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-gray-800">Hüseyin Kalaycı</h3>
+            <p class="text-gray-600">Mekanik</p>
+            <p class="text-gray-500 text-sm">2024-</p>
+          </div>
+        </div>
+
+        <div
+          class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+          <img src="img/busenur.jpg" alt="Busenur Özdemir" class="w-full h-64 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-gray-800">Busenur Özdemir</h3>
+            <p class="text-gray-600">Mekanik</p>
+            <p class="text-gray-500 text-sm">2024-</p>
+          </div>
+        </div>
+
+        <!-- 2025 Members -->
+        <div
+          class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+          <img src="img/AHMET.jpg" alt="Ahmet Can Arslan" class="w-full h-64 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-gray-800">Ahmet Can Arslan</h3>
+            <p class="text-gray-600">Mekanik</p>
+            <p class="text-gray-500 text-sm">2025-</p>
+          </div>
+        </div>
+
+        <div
+          class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+          <img src="img/Alperen.jpg" alt="Alperen Dağ" class="w-full h-64 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-gray-800">Alperen Dağ</h3>
+            <p class="text-gray-600">Yazılım ve Elektrik</p>
+            <p class="text-gray-500 text-sm">2025-</p>
+          </div>
+        </div>
+
+        <div
+          class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+          <img src="img/Nazlı.jpg" alt="Nazlı Gürel" class="w-full h-64 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-gray-800">Nazlı Gürel</h3>
+            <p class="text-gray-600">PR</p>
+            <p class="text-gray-500 text-sm">2025-</p>
           </div>
         </div>
       </div>
@@ -224,20 +288,112 @@
     <div class="container mx-auto px-4">
       <h2 class="text-4xl font-bold text-center text-gray-800 mb-16">Mentörlerimiz</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
-          <img src="img/Selin abla.jpg" alt="Selin Ertan" class="w-full h-64 object-cover">
-          <div class="p-6">
-            <h3 class="text-xl font-semibold text-gray-800">Selin Ertan</h3>
-            <p class="text-gray-600">Lead Mentör (Baş Mentör)</p>
-            <p class="text-gray-500 text-sm">2023-</p>
+        <!-- 2019 Mentors -->
+        <div
+          class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 relative">
+          <div class="absolute top-2 right-2 z-10">
+            <span class="bg-accent text-white text-xs font-bold px-2 py-1 rounded-full">Baş Mentör</span>
           </div>
-        </div>
-        <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
           <img src="img/Hakan Hoca.jpg" alt="Hakan Köse" class="w-full h-64 object-cover">
           <div class="p-6">
             <h3 class="text-xl font-semibold text-gray-800">Hakan Köse</h3>
             <p class="text-gray-600">Lead Mentör (Baş Mentör)</p>
             <p class="text-gray-500 text-sm">2019-</p>
+          </div>
+        </div>
+
+        <div
+          class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+          <img src="" alt="Ecem Çolak" class="w-full h-64 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-gray-800">Ecem Çolak</h3>
+            <p class="text-gray-600">Mentör</p>
+            <p class="text-gray-500 text-sm">2019-</p>
+          </div>
+        </div>
+
+        <div
+          class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+          <img src="img/yagiz.jpg" alt="Yağız Engin" class="w-full h-64 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-gray-800">Yağız Engin</h3>
+            <p class="text-gray-600">Mentör</p>
+            <p class="text-gray-500 text-sm">2019-</p>
+          </div>
+        </div>
+
+        <div
+          class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+          <img src="img/Ömer Faruk Günal.jpg" alt="Ömer Faruk Günal" class="w-full h-64 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-gray-800">Ömer Faruk Günal</h3>
+            <p class="text-gray-600">Mentör</p>
+            <p class="text-gray-500 text-sm">2019-</p>
+          </div>
+        </div>
+
+        <div
+          class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+          <img src="img/Ali Erkan Saruhan.jpg" alt="Ali Erkan Saruhan" class="w-full h-64 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-gray-800">Ali Erkan Saruhan</h3>
+            <p class="text-gray-600">Mentör</p>
+            <p class="text-gray-500 text-sm">2019-</p>
+          </div>
+        </div>
+
+        <!-- 2022 Mentors -->
+        <div
+          class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 relative">
+          <div class="absolute top-2 right-2 z-10">
+            <span class="bg-accent text-white text-xs font-bold px-2 py-1 rounded-full">Baş Mentör</span>
+          </div>
+          <img src="img/selin2.jpg" alt="Selin Ertan" class="w-full h-64 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-gray-800">Selin Ertan</h3>
+            <p class="text-gray-600">Lead Mentör (Baş Mentör)</p>
+            <p class="text-gray-500 text-sm">2022-</p>
+          </div>
+        </div>
+
+        <div
+          class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+          <img src="img/muhittin.jpg" alt="Muhittin Özdemir" class="w-full h-64 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-gray-800">Muhittin Özdemir</h3>
+            <p class="text-gray-600">Mentör</p>
+            <p class="text-gray-500 text-sm">2022-</p>
+          </div>
+        </div>
+
+        <!-- 2024 Mentors -->
+        <div
+          class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+          <img src="img/kagan.jpg" alt="Kağan Bahadır Durgut" class="w-full h-64 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-gray-800">Kağan Bahadır Durgut</h3>
+            <p class="text-gray-600">Mentör</p>
+            <p class="text-gray-500 text-sm">2024-</p>
+          </div>
+        </div>
+
+        <div
+          class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+          <img src="img/Hasret Okumuş.jpg" alt="Hasret Okumuş" class="w-full h-64 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-gray-800">Hasret Okumuş</h3>
+            <p class="text-gray-600">Mentör</p>
+            <p class="text-gray-500 text-sm">2024-</p>
+          </div>
+        </div>
+
+        <div
+          class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+          <img src="img/bugra.jpg" alt="Buğra Canata" class="w-full h-64 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-gray-800">Buğra Canata</h3>
+            <p class="text-gray-600">Mentör</p>
+            <p class="text-gray-500 text-sm">2024-</p>
           </div>
         </div>
       </div>
@@ -246,8 +402,9 @@
 
   <section id="projelerimiz" class="py-20 bg-gray-50">
     <div class="container mx-auto px-4">
-      <h2 class="text-4xl font-bold text-center text-white bg-accent rounded-t-3xl py-4 shadow-md mb-16">PROJELERİMİZ</h2>
-      
+      <h2 class="text-4xl font-bold text-center text-white bg-accent rounded-t-3xl py-4 shadow-md mb-16">PROJELERİMİZ
+      </h2>
+
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         <!-- FIRST Project -->
         <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
@@ -256,7 +413,8 @@
           </div>
           <div class="p-6">
             <h3 class="text-xl font-bold text-gray-800 mb-4">FIRST değerlerini çevremizdeki okullara yayıyoruz!</h3>
-            <p class="text-gray-600">FIRST değerlerini daha fazla okula yaymak ve yeni takımların kurulmasında öncülük etmek amacıyla çevre liselere FIRST'ü ve FRC'yi anlatıyoruz.</p>
+            <p class="text-gray-600">FIRST değerlerini daha fazla okula yaymak ve yeni takımların kurulmasında öncülük
+              etmek amacıyla çevre liselere FIRST'ü ve FRC'yi anlatıyoruz.</p>
           </div>
         </div>
 
@@ -267,7 +425,8 @@
           </div>
           <div class="p-6">
             <h3 class="text-xl font-bold text-gray-800 mb-4">Okulumuzda mühendis-öğrenci buluşmaları düzenledik!</h3>
-            <p class="text-gray-600">BSH mühendislerini okulumuzda ağırlayarak öğrenci-mühendis buluşmalarında sektörle ilgili sorularımıza cevaplar aldığımız bir sohbet gerçekleştirdik.</p>
+            <p class="text-gray-600">BSH mühendislerini okulumuzda ağırlayarak öğrenci-mühendis buluşmalarında sektörle
+              ilgili sorularımıza cevaplar aldığımız bir sohbet gerçekleştirdik.</p>
           </div>
         </div>
 
@@ -278,7 +437,8 @@
           </div>
           <div class="p-6">
             <h3 class="text-xl font-bold text-gray-800 mb-4">Mühendis-öğrenci buluşmalarını Twitch'e taşıdık!</h3>
-            <p class="text-gray-600">Her perşembe akşamı canlı yayınlar düzenliyoruz ve mühendislere sadece okulumuz öğrencilerinin değil, isteyen herkesin ulaşmasını sağlıyoruz.</p>
+            <p class="text-gray-600">Her perşembe akşamı canlı yayınlar düzenliyoruz ve mühendislere sadece okulumuz
+              öğrencilerinin değil, isteyen herkesin ulaşmasını sağlıyoruz.</p>
           </div>
         </div>
 
@@ -289,7 +449,8 @@
           </div>
           <div class="p-6">
             <h3 class="text-xl font-bold text-gray-800 mb-4">Hour of Code haftasında öğrenciler ile buluştuk!</h3>
-            <p class="text-gray-600">Hour of Code haftasında çevre ilkokul ve ortaokullarda okuyan çocukları okulumuzda ağırlıyoruz. Onlarla kodlama ve elektronik atölyeleri düzenledik.</p>
+            <p class="text-gray-600">Hour of Code haftasında çevre ilkokul ve ortaokullarda okuyan çocukları okulumuzda
+              ağırlıyoruz. Onlarla kodlama ve elektronik atölyeleri düzenledik.</p>
           </div>
         </div>
 
@@ -300,7 +461,8 @@
           </div>
           <div class="p-6">
             <h3 class="text-xl font-bold text-gray-800 mb-4">Makers Lab'de Scratch ve Arduino eğitimi!</h3>
-            <p class="text-gray-600">Ara tatillerde takım olarak mentorlarımız ile beraber BSH Makers Lab'da BSH çalışanlarının çocuklarına Arduino ve Scratch eğitimi verdik.</p>
+            <p class="text-gray-600">Ara tatillerde takım olarak mentorlarımız ile beraber BSH Makers Lab'da BSH
+              çalışanlarının çocuklarına Arduino ve Scratch eğitimi verdik.</p>
           </div>
         </div>
 
@@ -311,7 +473,8 @@
           </div>
           <div class="p-6">
             <h3 class="text-xl font-bold text-gray-800 mb-4">8-14 Mart Bilim Haftası Etkinlikleri</h3>
-            <p class="text-gray-600">Dijital platformlardan ortaokul öğrencileriyle teknoloji ve tasarım atölyeleri yapıyoruz. Bu atölyelerde 3 farklı ilden öğrenciler ile bir araya geldik.</p>
+            <p class="text-gray-600">Dijital platformlardan ortaokul öğrencileriyle teknoloji ve tasarım atölyeleri
+              yapıyoruz. Bu atölyelerde 3 farklı ilden öğrenciler ile bir araya geldik.</p>
           </div>
         </div>
 
@@ -322,7 +485,8 @@
           </div>
           <div class="p-6">
             <h3 class="text-xl font-bold text-gray-800 mb-4">Herkes için Yapay Zeka eğitimlerine destek</h3>
-            <p class="text-gray-600">ODTÜ'nün Bilgeİş platformunda yayınlanan "Herkes için Yapay Zeka" eğitimlerinin alt yazılarının oluşturulmasına destek verdik.</p>
+            <p class="text-gray-600">ODTÜ'nün Bilgeİş platformunda yayınlanan "Herkes için Yapay Zeka" eğitimlerinin alt
+              yazılarının oluşturulmasına destek verdik.</p>
           </div>
         </div>
 
@@ -333,7 +497,8 @@
           </div>
           <div class="p-6">
             <h3 class="text-xl font-bold text-gray-800 mb-4">Çevre Duyarlılığı Projeleri</h3>
-            <p class="text-gray-600">Çevre kirliliğini azaltmak için piknik alanlarında temizlik çalışmaları yapıyor, geri dönüşüme katkıda bulunuyoruz.</p>
+            <p class="text-gray-600">Çevre kirliliğini azaltmak için piknik alanlarında temizlik çalışmaları yapıyor,
+              geri dönüşüme katkıda bulunuyoruz.</p>
           </div>
         </div>
 
@@ -344,7 +509,8 @@
           </div>
           <div class="p-6">
             <h3 class="text-xl font-bold text-gray-800 mb-4">Orman Haftası Fidan Dikimi</h3>
-            <p class="text-gray-600">Orman İşleri Müdürlüğü'nden bağış olarak aldığımız fidanlar ile okulumuzda 26 adet çam fidanı diktik.</p>
+            <p class="text-gray-600">Orman İşleri Müdürlüğü'nden bağış olarak aldığımız fidanlar ile okulumuzda 26 adet
+              çam fidanı diktik.</p>
           </div>
         </div>
 
@@ -355,7 +521,8 @@
           </div>
           <div class="p-6">
             <h3 class="text-xl font-bold text-gray-800 mb-4">Sokak Hayvanları için Barınak</h3>
-            <p class="text-gray-600">Çerkezköy Gençlik Merkezi ile birlikte sokak hayvanları için barınaklar yapıyor ve uygun yerlere yerleştiriyoruz.</p>
+            <p class="text-gray-600">Çerkezköy Gençlik Merkezi ile birlikte sokak hayvanları için barınaklar yapıyor ve
+              uygun yerlere yerleştiriyoruz.</p>
           </div>
         </div>
 
@@ -366,7 +533,8 @@
           </div>
           <div class="p-6">
             <h3 class="text-xl font-bold text-gray-800 mb-4">Yeşil Alan Bilinçlendirme</h3>
-            <p class="text-gray-600">Okulumuzda yeşil alanlar hakkında bilinçlendirme semineri düzenleyip öğrencilerle birlikte tohum ekimi gerçekleştirdik.</p>
+            <p class="text-gray-600">Okulumuzda yeşil alanlar hakkında bilinçlendirme semineri düzenleyip öğrencilerle
+              birlikte tohum ekimi gerçekleştirdik.</p>
           </div>
         </div>
 
@@ -377,61 +545,85 @@
   <section id="galeri" class="py-20 bg-gray-100">
     <div class="container mx-auto px-4">
       <h2 class="text-4xl font-bold text-center text-white bg-accent rounded-t-3xl py-4 shadow-md mb-16">Galeri</h2>
-      
+
       <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-        <a href="img/resim67.jpg" data-fancybox="gallery" data-caption="GOAT 8092 Takım Etkinliği" class="group relative block aspect-square">
+        <a href="img/resim67.jpg" data-fancybox="gallery" data-caption="GOAT 8092 Takım Etkinliği"
+          class="group relative block aspect-square">
           <div class="relative h-full overflow-hidden rounded-lg bg-white shadow-lg">
-            <img src="img/resim67.1.jpg" alt="Galeri Resim 67" class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-110">
-            <div class="absolute inset-0 bg-black opacity-0 transition-opacity duration-300 group-hover:opacity-20"></div>
+            <img src="img/resim67.1.jpg" alt="Galeri Resim 67"
+              class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-110">
+            <div class="absolute inset-0 bg-black opacity-0 transition-opacity duration-300 group-hover:opacity-20">
+            </div>
           </div>
         </a>
 
-        <a href="img/resim68.jpg" data-fancybox="gallery" data-caption="GOAT 8092 Takım Etkinliği" class="group relative block aspect-square">
+        <a href="img/resim68.jpg" data-fancybox="gallery" data-caption="GOAT 8092 Takım Etkinliği"
+          class="group relative block aspect-square">
           <div class="relative h-full overflow-hidden rounded-lg bg-white shadow-lg">
-            <img src="img/resim68.1.jpg" alt="Galeri Resim 68" class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-110">
-            <div class="absolute inset-0 bg-black opacity-0 transition-opacity duration-300 group-hover:opacity-20"></div>
+            <img src="img/resim68.1.jpg" alt="Galeri Resim 68"
+              class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-110">
+            <div class="absolute inset-0 bg-black opacity-0 transition-opacity duration-300 group-hover:opacity-20">
+            </div>
           </div>
         </a>
 
-        <a href="img/resim69.jpg" data-fancybox="gallery" data-caption="GOAT 8092 Takım Etkinliği" class="group relative block aspect-square">
+        <a href="img/resim69.jpg" data-fancybox="gallery" data-caption="GOAT 8092 Takım Etkinliği"
+          class="group relative block aspect-square">
           <div class="relative h-full overflow-hidden rounded-lg bg-white shadow-lg">
-            <img src="img/resim69.1.jpg" alt="Galeri Resim 69" class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-110">
-            <div class="absolute inset-0 bg-black opacity-0 transition-opacity duration-300 group-hover:opacity-20"></div>
+            <img src="img/resim69.1.jpg" alt="Galeri Resim 69"
+              class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-110">
+            <div class="absolute inset-0 bg-black opacity-0 transition-opacity duration-300 group-hover:opacity-20">
+            </div>
           </div>
         </a>
 
-        <a href="img/resim4.jpg" data-fancybox="gallery" data-caption="GOAT 8092 Takım Etkinliği" class="group relative block aspect-square">
+        <a href="img/resim4.jpg" data-fancybox="gallery" data-caption="GOAT 8092 Takım Etkinliği"
+          class="group relative block aspect-square">
           <div class="relative h-full overflow-hidden rounded-lg bg-white shadow-lg">
-            <img src="img/resim4.1.jpg" alt="Galeri Resim 4" class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-110">
-            <div class="absolute inset-0 bg-black opacity-0 transition-opacity duration-300 group-hover:opacity-20"></div>
+            <img src="img/resim4.1.jpg" alt="Galeri Resim 4"
+              class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-110">
+            <div class="absolute inset-0 bg-black opacity-0 transition-opacity duration-300 group-hover:opacity-20">
+            </div>
           </div>
         </a>
 
-        <a href="img/resim5.jpg" data-fancybox="gallery" data-caption="GOAT 8092 Takım Etkinliği" class="group relative block aspect-square">
+        <a href="img/resim5.jpg" data-fancybox="gallery" data-caption="GOAT 8092 Takım Etkinliği"
+          class="group relative block aspect-square">
           <div class="relative h-full overflow-hidden rounded-lg bg-white shadow-lg">
-            <img src="img/resim5.1.jpg" alt="Galeri Resim 5" class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-110">
-            <div class="absolute inset-0 bg-black opacity-0 transition-opacity duration-300 group-hover:opacity-20"></div>
+            <img src="img/resim5.1.jpg" alt="Galeri Resim 5"
+              class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-110">
+            <div class="absolute inset-0 bg-black opacity-0 transition-opacity duration-300 group-hover:opacity-20">
+            </div>
           </div>
         </a>
 
-        <a href="img/resim6.jpg" data-fancybox="gallery" data-caption="GOAT 8092 Takım Etkinliği" class="group relative block aspect-square">
+        <a href="img/resim6.jpg" data-fancybox="gallery" data-caption="GOAT 8092 Takım Etkinliği"
+          class="group relative block aspect-square">
           <div class="relative h-full overflow-hidden rounded-lg bg-white shadow-lg">
-            <img src="img/resim6.1.jpg" alt="Galeri Resim 6" class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-110">
-            <div class="absolute inset-0 bg-black opacity-0 transition-opacity duration-300 group-hover:opacity-20"></div>
+            <img src="img/resim6.1.jpg" alt="Galeri Resim 6"
+              class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-110">
+            <div class="absolute inset-0 bg-black opacity-0 transition-opacity duration-300 group-hover:opacity-20">
+            </div>
           </div>
         </a>
 
-        <a href="img/resim10.jpg" data-fancybox="gallery" data-caption="GOAT 8092 Takım Etkinliği" class="group relative block aspect-square">
+        <a href="img/resim10.jpg" data-fancybox="gallery" data-caption="GOAT 8092 Takım Etkinliği"
+          class="group relative block aspect-square">
           <div class="relative h-full overflow-hidden rounded-lg bg-white shadow-lg">
-            <img src="img/resim10.1.jpg" alt="Galeri Resim 10" class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-110">
-            <div class="absolute inset-0 bg-black opacity-0 transition-opacity duration-300 group-hover:opacity-20"></div>
+            <img src="img/resim10.1.jpg" alt="Galeri Resim 10"
+              class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-110">
+            <div class="absolute inset-0 bg-black opacity-0 transition-opacity duration-300 group-hover:opacity-20">
+            </div>
           </div>
         </a>
 
-        <a href="img/resim13.jpg" data-fancybox="gallery" data-caption="GOAT 8092 Takım Etkinliği" class="group relative block aspect-square">
+        <a href="img/resim13.jpg" data-fancybox="gallery" data-caption="GOAT 8092 Takım Etkinliği"
+          class="group relative block aspect-square">
           <div class="relative h-full overflow-hidden rounded-lg bg-white shadow-lg">
-            <img src="img/resim13.1.jpg" alt="Galeri Resim 13" class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-110">
-            <div class="absolute inset-0 bg-black opacity-0 transition-opacity duration-300 group-hover:opacity-20"></div>
+            <img src="img/resim13.1.jpg" alt="Galeri Resim 13"
+              class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-110">
+            <div class="absolute inset-0 bg-black opacity-0 transition-opacity duration-300 group-hover:opacity-20">
+            </div>
           </div>
         </a>
       </div>
@@ -449,19 +641,24 @@
         </p>
 
         <div class="flex justify-center space-x-8">
-          <a href="https://www.instagram.com/goat8092/" target="_blank" class="text-white hover:text-pink-400 transition-colors">
+          <a href="https://www.instagram.com/goat8092/" target="_blank"
+            class="text-white hover:text-pink-400 transition-colors">
             <i class="fab fa-instagram text-4xl"></i>
           </a>
-          <a href="https://www.youtube.com/channel/UCIl4BL2RjOrgCz2y9oKTdcA" target="_blank" class="text-white hover:text-red-500 transition-colors">
+          <a href="https://www.youtube.com/channel/UCIl4BL2RjOrgCz2y9oKTdcA" target="_blank"
+            class="text-white hover:text-red-500 transition-colors">
             <i class="fab fa-youtube text-4xl"></i>
           </a>
-          <a href="https://discord.gg/2FDMggKqUS" target="_blank" class="text-white hover:text-indigo-400 transition-colors">
+          <a href="https://discord.gg/2FDMggKqUS" target="_blank"
+            class="text-white hover:text-indigo-400 transition-colors">
             <i class="fab fa-discord text-4xl"></i>
           </a>
-          <a href="https://www.twitch.tv/goat8092team" target="_blank" class="text-white hover:text-purple-400 transition-colors">
+          <a href="https://www.twitch.tv/goat8092team" target="_blank"
+            class="text-white hover:text-purple-400 transition-colors">
             <i class="fab fa-twitch text-4xl"></i>
           </a>
-          <a href="mailto:goatteam59@gmail.com" target="_blank" class="text-white hover:text-gray-300 transition-colors">
+          <a href="mailto:goatteam59@gmail.com" target="_blank"
+            class="text-white hover:text-gray-300 transition-colors">
             <i class="far fa-envelope text-4xl"></i>
           </a>
         </div>
@@ -502,10 +699,11 @@
     }
 
     // Mobile menu toggle
-    document.querySelector('[data-toggle="collapse"]').addEventListener('click', function() {
+    document.querySelector('[data-toggle="collapse"]').addEventListener('click', function () {
       const menu = document.getElementById('navbarSupportedContent');
       menu.classList.toggle('hidden');
     });
   </script>
 </body>
+
 </html>
